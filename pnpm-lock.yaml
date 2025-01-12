@@ -18,8 +18,8 @@ importers:
         specifier: ^16.5.3
         version: 16.5.3
       jsrepo:
-        specifier: ^1.24.1
-        version: 1.24.1(typescript@5.7.3)
+        specifier: ^1.24.3
+        version: 1.24.3(typescript@5.7.3)
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
@@ -980,8 +980,8 @@ packages:
   json-schema-typed@8.0.1:
     resolution: {integrity: sha512-XQmWYj2Sm4kn4WeTYvmpKEbyPsL7nBsb647c7pMe6l02/yx2+Jfc4dT6UZkEXnIUb5LhD55r2HPsJ1milQ4rDg==}
 
-  jsrepo@1.24.1:
-    resolution: {integrity: sha512-3ou3xs/2abOehlQ1Yt9AaDaSwsKwRSAQYxRP4GzL5khGkIO8ahC02RjvDs/zuDil+QAFVzGpCg9LZdNZ6Gvewg==}
+  jsrepo@1.24.3:
+    resolution: {integrity: sha512-ZssX17CixbR2plAI+RGBcEippajJ7wRofWJdg9Bka+FzvAO5gSgaAgm9+k3r8NmVNHRwsxcIHn4R4pjCfPMrIw==}
     hasBin: true
 
   locate-character@3.0.0:
@@ -2155,7 +2155,7 @@ snapshots:
 
   json-schema-typed@8.0.1: {}
 
-  jsrepo@1.24.1(typescript@5.7.3):
+  jsrepo@1.24.3(typescript@5.7.3):
     dependencies:
       '@biomejs/js-api': 0.7.1(@biomejs/wasm-nodejs@1.9.4)
       '@biomejs/wasm-nodejs': 1.9.4
