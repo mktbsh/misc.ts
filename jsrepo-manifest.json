@@ -1,0 +1,130 @@
+[
+	{
+		"name": "types",
+		"blocks": [
+			{
+				"name": "error-response",
+				"directory": "src/types",
+				"category": "types",
+				"tests": false,
+				"subdirectory": false,
+				"list": true,
+				"files": [
+					"error-response.ts"
+				],
+				"localDependencies": [],
+				"_imports_": {},
+				"dependencies": [],
+				"devDependencies": []
+			}
+		]
+	},
+	{
+		"name": "utils",
+		"blocks": [
+			{
+				"name": "dom",
+				"directory": "src/utils/dom",
+				"category": "utils",
+				"tests": true,
+				"subdirectory": true,
+				"list": true,
+				"files": [
+					"eventListener.test.ts",
+					"eventListener.ts",
+					"headlessFilePicker.browser.test.ts",
+					"headlessFilePicker.ts",
+					"loadImageAsync.browser.test.ts",
+					"loadImageAsync.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [],
+				"devDependencies": [],
+				"_imports_": {}
+			},
+			{
+				"name": "file",
+				"directory": "src/utils/file",
+				"category": "utils",
+				"tests": true,
+				"subdirectory": true,
+				"list": true,
+				"files": [
+					"fileSize.test.ts",
+					"fileSize.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [],
+				"devDependencies": [],
+				"_imports_": {}
+			},
+			{
+				"name": "html-canvas",
+				"directory": "src/utils/html-canvas",
+				"category": "utils",
+				"tests": false,
+				"subdirectory": true,
+				"list": true,
+				"files": [
+					"canvasToImage.ts",
+					"context.ts",
+					"create.ts",
+					"resize.ts",
+					"types.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [],
+				"devDependencies": [],
+				"_imports_": {}
+			},
+			{
+				"name": "retryAsync",
+				"directory": "src/utils",
+				"category": "utils",
+				"tests": true,
+				"subdirectory": false,
+				"list": true,
+				"files": [
+					"retryAsync.ts",
+					"retryAsync.test.ts"
+				],
+				"localDependencies": [],
+				"_imports_": {},
+				"dependencies": [],
+				"devDependencies": []
+			},
+			{
+				"name": "reusable",
+				"directory": "src/utils",
+				"category": "utils",
+				"tests": true,
+				"subdirectory": false,
+				"list": true,
+				"files": [
+					"reusable.ts",
+					"reusable.test.ts"
+				],
+				"localDependencies": [],
+				"_imports_": {},
+				"dependencies": [],
+				"devDependencies": []
+			},
+			{
+				"name": "toReadableStream",
+				"directory": "src/utils",
+				"category": "utils",
+				"tests": true,
+				"subdirectory": false,
+				"list": true,
+				"files": [
+					"toReadableStream.ts",
+					"toReadableStream.test.ts"
+				],
+				"localDependencies": [],
+				"_imports_": {},
+				"dependencies": [],
+				"devDependencies": []
+			}
+		]
+	}
+]
