@@ -1,3 +1,5 @@
+import { isError } from "./error/isError";
+
 type Ok<T> = [T, null];
 type Failure = [null, Error];
 
@@ -8,7 +10,7 @@ export async function tryAsync<T>(
     const data = await promise;
     return [data, null];
   } catch (err) {
-    if (err instanceof Error) return [null, err];
+    if (isError(err)) return [null, err];
 
     throw err;
   }

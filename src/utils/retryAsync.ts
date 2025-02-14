@@ -1,3 +1,5 @@
+import { throwError } from "./error/throwError";
+
 export interface RetryOptions {
   /**
    * Initial waiting time (in milliseconds)
@@ -61,5 +63,5 @@ export async function retryAsync<T>(
     }
   }
 
-  throw new Error("Max attempts reached");
+  throwError("Max attempts reached");
 }
