@@ -1,130 +1,224 @@
-[
-	{
-		"name": "types",
-		"blocks": [
-			{
-				"name": "error-response",
-				"directory": "src/types",
-				"category": "types",
-				"tests": false,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"error-response.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": []
-			}
-		]
-	},
-	{
-		"name": "utils",
-		"blocks": [
-			{
-				"name": "dom",
-				"directory": "src/utils/dom",
-				"category": "utils",
-				"tests": true,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"eventListener.test.ts",
-					"eventListener.ts",
-					"headlessFilePicker.browser.test.ts",
-					"headlessFilePicker.ts",
-					"loadImageAsync.browser.test.ts",
-					"loadImageAsync.ts"
-				],
-				"localDependencies": [],
-				"dependencies": [],
-				"devDependencies": [],
-				"_imports_": {}
-			},
-			{
-				"name": "file",
-				"directory": "src/utils/file",
-				"category": "utils",
-				"tests": true,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"fileSize.test.ts",
-					"fileSize.ts"
-				],
-				"localDependencies": [],
-				"dependencies": [],
-				"devDependencies": [],
-				"_imports_": {}
-			},
-			{
-				"name": "html-canvas",
-				"directory": "src/utils/html-canvas",
-				"category": "utils",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"canvasToImage.ts",
-					"context.ts",
-					"create.ts",
-					"resize.ts",
-					"types.ts"
-				],
-				"localDependencies": [],
-				"dependencies": [],
-				"devDependencies": [],
-				"_imports_": {}
-			},
-			{
-				"name": "retryAsync",
-				"directory": "src/utils",
-				"category": "utils",
-				"tests": true,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"retryAsync.ts",
-					"retryAsync.test.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": []
-			},
-			{
-				"name": "reusable",
-				"directory": "src/utils",
-				"category": "utils",
-				"tests": true,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"reusable.ts",
-					"reusable.test.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": []
-			},
-			{
-				"name": "toReadableStream",
-				"directory": "src/utils",
-				"category": "utils",
-				"tests": true,
-				"subdirectory": false,
-				"list": true,
-				"files": [
-					"toReadableStream.ts",
-					"toReadableStream.test.ts"
-				],
-				"localDependencies": [],
-				"_imports_": {},
-				"dependencies": [],
-				"devDependencies": []
-			}
-		]
-	}
-]
+{
+	"categories": [
+		{
+			"name": "types",
+			"blocks": [
+				{
+					"name": "error-response",
+					"directory": "src/types",
+					"category": "types",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"error-response.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [],
+					"devDependencies": []
+				}
+			]
+		},
+		{
+			"name": "utils",
+			"blocks": [
+				{
+					"name": "cache",
+					"directory": "src/utils/cache",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"lru-k.test.ts",
+						"lru-k.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "dom",
+					"directory": "src/utils/dom",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"eventListener.test.ts",
+						"eventListener.ts",
+						"headlessFilePicker.browser.test.ts",
+						"headlessFilePicker.ts",
+						"loadImageAsync.browser.test.ts",
+						"loadImageAsync.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "error",
+					"directory": "src/utils/error",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"isError.test.ts",
+						"isError.ts",
+						"throwError.test.ts",
+						"throwError.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "file",
+					"directory": "src/utils/file",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"fileSize.test.ts",
+						"fileSize.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "html-canvas",
+					"directory": "src/utils/html-canvas",
+					"category": "utils",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"canvasToImage.ts",
+						"context.ts",
+						"create.ts",
+						"resize.ts",
+						"types.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "retryAsync",
+					"directory": "src/utils",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"retryAsync.ts",
+						"retryAsync.test.ts"
+					],
+					"localDependencies": [
+						"utils/error"
+					],
+					"_imports_": {
+						"./error/throwError": "{{utils/error}}/throwError"
+					},
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"name": "reusable",
+					"directory": "src/utils",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"reusable.ts",
+						"reusable.test.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"name": "sleep",
+					"directory": "src/utils",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"sleep.ts",
+						"sleep.test.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"name": "stream",
+					"directory": "src/utils/stream",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"lineSplitTransformStream.test.ts",
+						"lineSplitTransformStream.ts",
+						"toReadableStream.test.ts",
+						"toReadableStream.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "strings",
+					"directory": "src/utils/strings",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"pathToCamelCase.test.ts",
+						"pathToCamelCase.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [],
+					"devDependencies": [],
+					"_imports_": {}
+				},
+				{
+					"name": "tryAsync",
+					"directory": "src/utils",
+					"category": "utils",
+					"tests": true,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"tryAsync.ts",
+						"tryAsync.test.ts"
+					],
+					"localDependencies": [
+						"utils/error"
+					],
+					"_imports_": {
+						"./error/isError": "{{utils/error}}/isError"
+					},
+					"dependencies": [],
+					"devDependencies": []
+				}
+			]
+		}
+	]
+}
