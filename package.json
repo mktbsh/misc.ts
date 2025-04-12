@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:registry": "jsrepo build",
+    "build": "jsrepo build",
     "test": "vitest",
     "test-report": "vitest run --coverage",
     "format": "biome format --write",
@@ -18,11 +18,11 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/node": "^22.10.5",
-    "happy-dom": "^16.5.3",
-    "jsrepo": "^1.24.3",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "vitest": "^2.1.8"
+    "@types/node": "^22.14.1",
+    "happy-dom": "^17.4.4",
+    "jsrepo": "^1.47.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
   }
 }
