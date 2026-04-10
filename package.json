@@ -19,7 +19,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.4",
     "@types/node": "^25.3.2",
-    "happy-dom": "^20.7.0",
+    "happy-dom": "^20.8.9",
     "jsrepo": "^3.6.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
